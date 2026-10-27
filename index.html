@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estephanie Aswigue - IT Student Profile</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <!-- Tagline -->
+    <header>
+        <h1>Estephanie Aswigue</h1>
+        <p class="tagline">Bachelor of Science in Information Technology Student</p>
+        
+        <nav>
+            <ul>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#projects-section">MY PROJECTS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>ABOUT ME</h2>
+            <img src="images/my profile.jpg" class="profile-img" alt="Profile Picture">
+            <p>Estephanie Aswigue, an Information Technology student from Eyeb, Bontoc, Mountain Province. I am currently studying at Mountain Province State University. I am passionate about technology and web development, and I'm trying my best.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>MY SKILLS</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3>HTML & CSS</h3>
+                    <p>Building and designing responsive webpages</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>Basic programming and problem-solving</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Database Management</h3>
+                    <p>SQL and data organization</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Computer Literacy</h3>
+                    <p>Microsoft, and typing skills</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects-section">
+            <h2>My Projects</h2>
+            <p class="intro">Here are some of the projects I have worked on as a student.</p>
+
+            <!-- PROJECT CARDS CONTAINER -->
+            <div class="projects-container">
+
+                <!-- PROJECT CARD 1 -->
+                <div class="project-card">
+                    <img src="images/Project1.png" alt="Figma Facebook App">
+                    <h3>FIGMA-FACEBOOK APP</h3>
+                </div>
+
+                <!-- PROJECT CARD 2 -->
+                <div class="project-card">
+                    <img src="images/Project2.png" alt="Branding">
+                    <h3>BRANDING</h3>
+                </div>
+
+                <!-- PROJECT CARD 3 -->
+                <div class="project-card">
+                    <img src="images/Project3.webp" alt="HTML Elements">
+                    <h3>APPLYING 3 TYPES OF HTML ELEMENTS</h3>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>CONTACT ME</h2>
+            <div class="contact-info">
+                <p><strong>Full Name:</strong> Estephanie Aswigue</p>
+                <p><strong>Email Address:</strong> aswigue@gmail.com</p>
+                <p><strong>Contact Number:</strong> 09701888888</p>
+                <p><strong>Address:</strong> Eyeb, Bontoc, Mountain Province</p>
+            </div>
+
+            <form class="contact-form">
+                <h3>Send Me a Message</h3>
+                
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="contact-num">Contact Number:</label>
+                <input type="tel" id="contact-num" name="contact" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+
+        
+        
+    
+
+    <!-- Footer Section (Remains at the bottom, not in buttons) -->
+    <footer id="footer">
+        <p>&copy; 2026 Aswigue Estephanie</p>
+        <p>Web Systems and Technologies 1 | Midterm Laboratory Examination</p>
+        <p>August 17, 2026 2:14 PM</p>
+    </footer>
+
+</body>
+</html>
